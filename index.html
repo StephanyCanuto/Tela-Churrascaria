@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Churrascaria</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <nav id="navbar" class="navbar">
+        <li><a class="item-nav" href="#introducao">Home</a></li>
+        <li><a class="item-nav" href="#menu">Menu</a></li>
+        <li><a class="item-nav" href="#reservas">Reservas</a></li>
+        <li><a class="item-nav" href="#contato">Contato</a></li>
+    </nav>
+
+    <header id="introducao" class="boas-vindas">
+        <h1 class="header-principal">Bem Vindo à Churrascaria do Brasil</h1>
+        <p>Desfrute o melhor churrasco da cidade!</p>
+        <a href="#menu"><button class="btn-ver-menu" id="btn-ver-menu">Ver Menu</button></a>
+    </header>
+
+    <section id="menu" class="menu">
+        <h1 class="menu-title">Menu</h1>
+        <div class="menu-itens">
+            <div class="imagens">
+                <img class="img-menu" src="imagens/picanha.png" alt="Picanha">
+                <p class="nome-carne">Picanha</p>
+                <p>R$100.00</p>
+            </div>
+    
+            <div class="imagens">
+                <img class="img-menu" src="imagens/maminha.png" alt="Maminha">
+                <p class="nome-carne">Maminha</p>
+                <p>R$70.00</p>
+            </div>
+    
+            <div class="imagens">
+                <img class="img-menu" src="imagens/alcatra.png" alt="Alcatra">
+                <p class="nome-carne">Alcatra</p>
+                <p>R$60.00</p>
+            </div>
+    
+            <div class="imagens">
+                <img class="img-menu" src="imagens/linguica.png" alt="Linguiça">
+                <p class="nome-carne">Linguiça</p>
+                <p>R$40.00</p>
+            </div>
+            <div class="imagens">
+                <img class="img-menu" src="imagens/tulipa.png" alt="Costela">
+                <p class="nome-carne">Tulipa</p>
+                <p>R$40.00</p>
+            </div>
+        </div>
+        <div class="menu-itens">
+            <div class="imagens">
+                <img class="img-menu" src="imagens/fraldinha.png" alt="Fraldinha">
+                <p class="nome-carne">Fraldinha</p>
+                <p>R$70.00</p>
+            </div>
+    
+            <div class="imagens">
+                <img class="img-menu" src="imagens/coracao-galinha.png" alt="Coração">
+                <p class="nome-carne">Coração</p>
+                <p>R$30.00</p>
+            </div>
+
+            <div class="imagens">
+                <img class="img-menu" src="imagens/cordeiro.png" alt="Cordeiro">
+                <p class="nome-carne">Cordeiro</p>
+                <p>R$100.00</p>
+            </div>
+    
+            <div class="imagens">
+                <img class="img-menu" src="imagens/costela.png" alt="Costela">
+                <p class="nome-carne">Costela</p>
+                <p>R$80.00</p>
+            </div>
+            <div class="imagens">
+                <img class="img-menu" src="imagens/legumes.png" alt="Costela">
+                <p class="nome-carne">Legumes</p>
+                <p>R$40.00</p>
+            </div>
+        </div>
+        <div class="menu-itens">
+    
+            <div class="imagens">
+                <img class="img-menu" src="imagens/pao-de-alho.png" alt="Costela">
+                <p class="nome-carne">Pão de Alho</p>
+                <p>R$15.00</p>
+            </div>
+
+            <div class="imagens">
+                <img class="img-menu" src="imagens/cupim.png" alt="Cupim">
+                <p class="nome-carne">Cupim</p>
+                <p>R$65.00</p>
+            </div>
+    
+            <div class="imagens">
+                <img class="img-menu" src="imagens/t-bone.png" alt="T-bone">
+                <p class="nome-carne">T-bone</p>
+                <p>R$120.00</p>
+            </div>
+    
+            <div class="imagens">
+                <img class="img-menu" src="imagens/peito-de-frango.png" alt="Peito de Frango">
+                <p class="nome-carne">Frango</p>
+                <p>R$35.00</p>
+            </div>
+
+            <div class="imagens">
+                <img class="img-menu" src="imagens/assado-de-tira.png" alt="assado-de-tira">
+                <p class="nome-carne">Assado</p>
+                <p>R$90.00</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="reservas" class="reservas">
+        <h1>Reservas</h1>
+        <div class="formulario">
+            <form action="">
+                <div class="form-item">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome">
+                </div>
+                <div class="form-item">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email">
+                </div>
+                <div class="form-item">
+                    <label for="telefone">Telefone:</label>
+                    <input type="text" id="telefone">
+                </div>
+                <div class="form-item">
+                    <label for="data">Data:</label>
+                    <input type="date" id="data">
+                </div>
+                <div class="form-item">
+                    <label for="hora">Hora:</label>
+                    <input type="time" id="hora">
+                </div>
+                <button class="btn-reservar" id="btn-reservar" type="submit">Reservar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer id="contato" class="contato">
+        <div class="footer-info">
+            <h1 id="title-contato">Contato</h1>
+            <p>Endereço: Rua dos Churrasqueiros, 123 - São Paulo, SP</p>
+            <p>Telefone: (11) 1234-5678</p>
+            <p>Email:contato@churrascariadobrasil.com.br</p>
+        </div>
+        <div class="copyright">
+            <p>&copy;2023 Churrascaria do Brasil</p>
+        </div>
+    </footer>
+
+</body>
+</html>

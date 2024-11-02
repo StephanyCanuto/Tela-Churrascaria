@@ -1,0 +1,150 @@
+body {
+    background: linear-gradient(to bottom, #000000, #808080);
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: aliceblue;
+}
+
+h1{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+section{
+    margin-top: 8%;
+}
+
+
+/* Menu de Navegação */
+.navbar{
+    background-color: #333333;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1%;
+}
+
+.item-nav{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+
+/* Cabeçalho */
+.boas-vindas {
+    margin-top: 5%;
+    padding-left: 5%;
+    color: aliceblue;
+    font-size: 15px;
+}
+
+.btn-ver-menu {
+    background-color: rgb(139, 6, 6);
+    color: aliceblue;
+    border: none;
+    padding: 0.5%;
+    border-radius: 2%;
+}
+
+/* Menu itens do cardápio */
+
+.menu-title{
+    text-align: center;
+}
+
+.img-menu {
+    width: 9rem;
+    height: 9rem;
+    border-radius: 10%;
+}
+
+.menu-itens {
+    margin-top: 4%;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    color: aliceblue;
+}
+
+.nome-carne {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+
+
+/* Formulario para reservas */
+
+.reservas h1 {
+    color: #111111;
+    text-align: center;
+}
+
+.reservas input {
+    width: 85%;
+    border-color: rgb(139, 6, 6);
+    border-radius: 5px;
+}
+
+.reservas label {
+    width: 15%;
+    text-align: left;
+}
+
+.formulario {
+    width: 50%;
+    margin: auto;
+    margin-bottom: 3%;
+    background-color: #000000;
+    padding: 2%;
+    border-radius: 5px;
+}
+
+.form-item {
+    margin-bottom: 1%;
+    display: flex;
+    justify-content: space-between;
+ 
+}
+
+.btn-reservar {
+    background-color: rgb(139, 6, 6);
+    color: aliceblue;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 1%;
+    border-radius: 5px;
+    border: none;
+}
+
+
+
+
+/* Rodapé */
+.contato {
+    background-color: aliceblue;
+    margin: 0;
+    color: #000000;
+}
+
+.footer-info {
+    padding-left: 25%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.copyright {
+    background-color: rgb(139, 6, 6);
+    margin-top: 0;
+    height: 30px;
+    text-align: center;
+    color: aliceblue;
+    font-size: 10px;
+    padding-top: 0.5%;
+}
+
